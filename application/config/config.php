@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/wp2_19210512';
+$config['base_url'] = 'http://localhost/wp2_19210512_pustaka_booking';
+//$config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTP'] == "on") ? "https" : "https");
+//$config['base_url'] .= "://" . $_server['HTPP_HOST'];
+//$config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 
 /*
 |--------------------------------------------------------------------------
